@@ -5,6 +5,7 @@ module.exports={
         pool.query(`insert into registration(firstname,lastname,gender,email,password,number)
         values(?,?,?,?,?,?)`,
         [
+            
             data.firstname,
             data.lastname,
             data.gender,
